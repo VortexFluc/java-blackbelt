@@ -5,7 +5,7 @@ public class Ex8 extends Thread{
     public void run() {
         for (int i = 1; i <= 10; i++) {
             try {
-                Thread.sleep(1000);
+                Thread.sleep(100);
             } catch (InterruptedException ie) {
                 ie.printStackTrace();
             }
@@ -32,7 +32,7 @@ class MyRunnable1 implements Runnable {
     public void run() {
         for (int i = 1; i <= 10; i++) {
             try {
-                Thread.sleep(1000);
+                Thread.sleep(100);
             } catch (InterruptedException ie) {
                 ie.printStackTrace();
             }

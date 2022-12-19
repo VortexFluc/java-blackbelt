@@ -14,7 +14,7 @@ public class Ex9 {
     }
 }
 
-class Worker implements Runnable{
+class Worker implements Runnable {
     @Override
     public void run() {
         System.out.println("Work begins");
